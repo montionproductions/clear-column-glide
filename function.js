@@ -1,9 +1,10 @@
 let result;
 
-window.function = function(time){
+window.function = function(arg, time){
 
-    day = day.value ?? "domingo";
-    hour = hour.value ?? "13:00"
+    arg = arg.value ?? "";
+    time = time.value ?? 6.048e+8;
+    result = arg;
 
     let timerID;
 
