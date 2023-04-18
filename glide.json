@@ -1,0 +1,18 @@
+[
+    {
+        "kind": "column",
+        "name": "Substring",
+        "description": "Delete the whole column at the end of a custom day",
+        "author": "Francisco Montion <jmontion@4m2q.com>",
+        "params": [
+            {
+                "name": "time",
+                "displayName": "Delete time",
+                "type": "number"
+            }
+        ],
+        "result": {
+            "type": "string"
+        }
+    }
+]
