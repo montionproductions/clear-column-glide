@@ -6,6 +6,11 @@
         "author": "Francisco Montion <jmontion@4m2q.com>",
         "params": [
             {
+                "name": "arg",
+                "displayName": "Default text",
+                "type": "string"
+            },
+            {
                 "name": "time",
                 "displayName": "Delete time",
                 "type": "number"
